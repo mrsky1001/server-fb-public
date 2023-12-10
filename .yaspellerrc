@@ -1,0 +1,39 @@
+{
+  "excludeFiles": [
+    ".git",
+    "yaspeller",
+    "node_modules",
+    "dist"
+  ],
+  "lang": "ru",
+  "fileExtensions": [
+    ".md",
+    ".html",
+    ".js",
+    ".ts",
+    ".css",
+    ".vue",
+    ".scss"
+  ],
+  "report": ["console"],
+  "dictionary": [
+    "лайф",
+    "каланхое",
+    "замиокулькас",
+    "Рейхани",
+    "Малописание",
+    "Кортасар",
+    "Дюссо",
+    "Ипохорская",
+    "Лец",
+    "кулинарить",
+    "говорилкой",
+    "соньку",
+    "Предпросмотр",
+    "Вовенарг",
+    "Алоха"
+  ],
+  "ignoreTags": [],
+  "ignoreText": [],
+  "ignoreUppercase": true
+}

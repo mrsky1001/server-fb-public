@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  web:
+    image: node:14.20.1
+    network_mode: "host"
+
+    volumes:
+      - ".:/app"
+    environment:
+      NODE_ENV: development
+      HOST: 172.17.0.1
+      mongoservice: 172.17.0.1
+    working_dir: /app
+    command: sh -c "cd /app; npm i typescript  -g; yarn install;tsc; yarn run dev-docker --host 0.0.0.0"

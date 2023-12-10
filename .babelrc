@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "transform-inline-environment-variables",
+      {
+        "include": [
+          "NODE_ENV",
+          "API"
+        ]
+      }
+    ]
+  ]
+}

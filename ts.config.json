@@ -1,0 +1,31 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "strict": false,
+    "sourceMap": true,
+    "outDir": "dist/",
+    "experimentalDecorators": true,
+    "allowJs": false,
+    "declaration": false,
+    "removeComments": true,
+    "noLib": false,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "target": "es5"
+  }
+}
